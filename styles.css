@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  letter-spacing: -0.5px;
 }
 
 .main-container {
@@ -26,6 +27,7 @@ body {
 @media (max-width: 768px) {
   .lets-make-money-title {
     padding: 10px;
+    margin-top: 22px;
   }
 }
 
@@ -42,7 +44,7 @@ body {
   .images-container {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 90%;
     margin: auto;
   }
 }
@@ -139,6 +141,7 @@ body {
   margin-top: 20px;
   margin-left: 20px;
   display: flex;
+  align-items: flex-start;
 }
 
 .text-for-numerous {
@@ -165,6 +168,14 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .img-step3 {
+    width: 132% !important;
+    margin-left: -51px;
+    margin-top: -30px !important;
+  }
+}
+
 .main-img-for-Step2 img {
   margin-top: -6px;
 }
@@ -183,7 +194,7 @@ body {
 @media (max-width: 768px) {
   .btn-container {
     width: fit-content;
-    margin: 80px auto 40px auto;
+    margin: 64px auto 40px auto;
   }
 }
 
